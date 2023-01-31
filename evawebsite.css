@@ -1,0 +1,80 @@
+/* . for class, hashtag for id */
+
+.jumbotron {
+  margin-left:20px;
+  margin-right:20px;
+  border-radius: 10px;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  border-color: ;
+  background-color: #E1E1E1;
+  border-radius: 10px;
+  border-width: 3px;
+  width: 1200px;
+}
+
+.btn {
+	color: white;
+	margin-left: ;
+}
+
+
+.navbar {
+	background-color: #FF5E72;
+
+}
+
+.body {
+	background-color: white;
+}
+
+.navbar-brand {
+	font-size: 3rem;
+	font-family: helvetica;
+}
+
+.h10 {
+	font-size: 16px;
+	justify-content: center;
+}
+
+.footerimage {
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 15%;
+
+}
+
+.images {
+
+	width: 5%;
+  	height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: pink;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
